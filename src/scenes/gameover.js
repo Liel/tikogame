@@ -20,6 +20,9 @@ export default class GameOver extends Phaser.Scene {
         25
       )
       .setOrigin(0.5);
+    const tikoPhoto = this.add.image(this.center_width, 30, 'tikoEats').setOrigin(0);
+    tikoPhoto.setScale(0.2);
+
     this.add
       .bitmapText(
         this.center_width,

@@ -27,6 +27,7 @@ export default class StartGame extends Phaser.Scene {
     this.load.image('playerTiko', 'assets/images/tiko.png');
     this.load.image('playerTikoTemp', 'assets/images/tikohappy.png');
     this.load.image('tikoOpen', 'assets/images/tikoopen.png');
+    this.load.image('tikoEats', 'assets/images/tikoEats2.png');
   }
 
   create() {
