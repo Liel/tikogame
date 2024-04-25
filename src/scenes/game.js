@@ -167,7 +167,7 @@ export default class Game extends Phaser.Scene {
     */
   jump() {
   //  if (!this.player.body.blocked.down) return;
-    this.player.body.setVelocityY(-300);
+    this.player.body.setVelocityY(-220);
 
     this.playAudio("jump");
     this.jumpTween = this.tweens.add({
