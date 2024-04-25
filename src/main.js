@@ -6,10 +6,10 @@ import StartGame from "./scenes/startgame";
 This is the main configuration file for the game.
 */
 const config = {
-  width: 700,
-  height: 400,
+  width: 400,
+  height: 800,
   scale: {
-    mode: Phaser.Scale.FIT,
+    mode: Phaser.Scale.HEIGHT_CONTROLS_WIDTH,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
   autoRound: false,
