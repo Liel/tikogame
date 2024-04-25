@@ -7,9 +7,9 @@ This is the main configuration file for the game.
 */
 const config = {
   width: 400,
-  height: 800,
+  height: 650,
   scale: {
-    mode: Phaser.Scale.HEIGHT_CONTROLS_WIDTH,
+    mode: Phaser.Scale.RESIZE,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
   autoRound: false,
